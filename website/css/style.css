@@ -1,0 +1,379 @@
+                                            /* Font */
+                                            /* * {
+        font-family: 'Dancing Script', cursive;
+    }
+     */
+                                            
+                                            @font-face {
+                                                font-family: ViaodaLibre-Regular;
+                                                src: url(../fonts/ViaodaLibre-Regular.ttf);
+                                            }
+                                            
+                                            h1,
+                                            h2,
+                                            h3,
+                                            h4,
+                                            h5 {
+                                                font-family: ViaodaLibre-Regular;
+                                            }
+                                            /* BODY */
+                                            
+                                            body {
+                                                margin: 0;
+                                            }
+                                            
+                                            .uni-padding {
+                                                padding: 0 7%;
+                                            }
+                                            /* Top-Bar */
+                                            
+                                            #topbar {
+                                                background-color: #576574;
+                                                padding-top: 15px;
+                                                padding-bottom: 15px;
+                                                overflow: auto;
+                                            }
+                                            
+                                            #social-icons {
+                                                float: right;
+                                            }
+                                            
+                                            #toll-free {
+                                                float: left;
+                                                color: #fdfdfd;
+                                                margin: 0;
+                                                font-size: 20px;
+                                                margin-top: 5px;
+                                            }
+                                            
+                                            .fab {
+                                                background-color: #fdfdfd;
+                                                padding: 7px;
+                                                border-radius: 50%;
+                                            }
+                                            
+                                            .fa-facebook {
+                                                color: blueviolet;
+                                            }
+                                            
+                                            .fa-whatsapp {
+                                                color: rgb(0, 255, 21);
+                                                padding: 8px 8px;
+                                            }
+                                            
+                                            .fa-twitter {
+                                                color: cyan;
+                                                padding: 8px 5px;
+                                            }
+                                            
+                                            .fa-instagram {
+                                                color: red;
+                                                padding: 9px 8px;
+                                            }
+                                            /* Logo-Bar */
+                                            
+                                            #logobar img {
+                                                margin-top: 20px;
+                                                margin-bottom: 5px;
+                                                height: 100px;
+                                            }
+                                            /* Nav-Bar */
+                                            
+                                            #navbar {
+                                                background-color: #ee5253;
+                                            }
+                                            
+                                            #navbar ul {
+                                                margin: 0px;
+                                                padding: 0px;
+                                            }
+                                            
+                                            #navbar ul li {
+                                                display: inline-block;
+                                                padding: 10px 0px;
+                                                padding-right: 30px;
+                                                font-size: 30px;
+                                                font-style: bold;
+                                                text-decoration: none;
+                                            }
+                                            
+                                            #navbar ul li a {
+                                                text-decoration: none;
+                                                color: #fdfdfd;
+                                                justify-content: space-around;
+                                            }
+                                            /* Poster */
+                                            
+                                            #poster {
+                                                background-image: url(../img/Untitled-1.jpg);
+                                                height: 500px;
+                                                background-position: center;
+                                                background-size: cover;
+                                                color: white;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                flex-direction: column;
+                                            }
+                                            
+                                            #poster h1 {
+                                                font-size: 50px;
+                                            }
+                                            
+                                            #poster p {
+                                                text-align: center;
+                                            }
+                                            /* whyus */
+                                            
+                                            #whyus {
+                                                overflow: auto;
+                                                text-align: center;
+                                            }
+                                            
+                                            .section33 {
+                                                width: 33.33%;
+                                                float: left;
+                                                text-align: center;
+                                                padding: 10px 0px 40px 30px;
+                                                box-sizing: border-box;
+                                            }
+                                            
+                                            .redheading {
+                                                color: red;
+                                                margin-top: 50px;
+                                                text-align: center;
+                                            }
+                                            
+                                            .section33 img {
+                                                height: 50px;
+                                                /* width: auto; */
+                                                margin-top: 30px;
+                                            }
+                                            /* Contact-Button */
+                                            
+                                            #contactbutton {
+                                                background-color: #ee5253;
+                                                color: white;
+                                                padding-top: 20px;
+                                                padding-bottom: 20px;
+                                                overflow: auto;
+                                            }
+                                            
+                                            .section70 {
+                                                width: 70%;
+                                                float: left;
+                                            }
+                                            
+                                            .section30 {
+                                                width: 30%;
+                                                float: left;
+                                                text-align: center;
+                                                margin-top: 70px;
+                                            }
+                                            
+                                            .section30 a {
+                                                background-color: thistle;
+                                                padding: 15px 20px;
+                                                text-decoration: none;
+                                                border-radius: 8px;
+                                                font-weight: bold;
+                                                font-size: 20px;
+                                                color: #ee5253;
+                                            }
+                                            /* Blog */
+                                            
+                                            #blogsection {
+                                                border: 1px solid red;
+                                            }
+                                            
+                                            .readmore {
+                                                text-decoration: none;
+                                                color: red;
+                                                font-weight: bold;
+                                                font-size: 15px;
+                                            }
+                                            
+                                            .section33 img {
+                                                max-width: 100px;
+                                            }
+                                            /* newsletter */
+                                            
+                                            #newsletter {
+                                                background-color: #ee5253;
+                                                overflow: auto;
+                                                text-align: center;
+                                                padding-top: 20px;
+                                                padding-bottom: 20px;
+                                            }
+                                            
+                                            .section50 {
+                                                width: 50%;
+                                                float: left;
+                                            }
+                                            
+                                            .section50 h1 {
+                                                font-size: 40px;
+                                                text-align: right;
+                                            }
+                                            
+                                            .section50 form {
+                                                padding-top: 30px;
+                                            }
+                                            
+                                            .section50 input {
+                                                padding: 10px 50px;
+                                            }
+                                            
+                                            .section50 input[type="submit"] {
+                                                color: red;
+                                                border: 0px;
+                                            }
+                                            /* Footer */
+                                            
+                                            #imp-links {
+                                                background-color: #576574;
+                                                color: white;
+                                                overflow: auto;
+                                            }
+                                            
+                                            .div33 {
+                                                width: 33.33%;
+                                                float: left;
+                                                padding: 25px 50px;
+                                                box-sizing: border-box;
+                                            }
+                                            
+                                            .div33 h3 {
+                                                text-decoration: underline;
+                                                text-underline-offset: 10px;
+                                                text-decoration-thickness: 2px;
+                                            }
+                                            
+                                            #ul-menu {
+                                                list-style-type: none;
+                                                padding: 0px;
+                                            }
+                                            
+                                            #ul-menu li {
+                                                padding: 5px 5px;
+                                            }
+                                            
+                                            #footer-links {
+                                                padding-left: 100px;
+                                            }
+                                            /* copyright */
+                                            
+                                            #copyright {
+                                                background-color: saddlebrown;
+                                                text-align: center;
+                                                padding: 10px;
+                                            }
+                                            /* Responsive  ipad*/
+                                            
+                                            @media only screen and (max-width: 768px) {
+                                                #navbar ul li {
+                                                    padding: 20px 0px;
+                                                    padding-right: 15px;
+                                                }
+                                                #newsletter {
+                                                    padding-left: 10px
+                                                }
+                                                .section50 input {
+                                                    padding: 10px 20px;
+                                                }
+                                                .section33 p {
+                                                    font-size: 20px;
+                                                }
+                                                #imp-links {
+                                                    font-size: 20px;
+                                                }
+                                                #navbar #mobile-bar {
+                                                    display: none;
+                                                }
+                                            }
+                                            
+                                            #navbar ul #cross-bar,
+                                            #mobile-bar {
+                                                display: none;
+                                            }
+                                            /* mobile screen iphonne */
+                                            
+                                            @media only screen and (max-width: 500px) {
+                                                #topbar {
+                                                    padding-top: 30px;
+                                                    padding-bottom: 30px;
+                                                }
+                                                #logobar {
+                                                    text-align: center;
+                                                }
+                                                #poster h1 {
+                                                    font-size: 30px;
+                                                }
+                                                .section30,
+                                                .section70,
+                                                .section50,
+                                                .section33 {
+                                                    width: 100%;
+                                                }
+                                                .section70 {
+                                                    text-align: center
+                                                }
+                                                .section30 {
+                                                    margin-top: 20px;
+                                                    margin-bottom: 20px;
+                                                }
+                                                .section50 h1 {
+                                                    font-size: 30px;
+                                                    text-align: center;
+                                                }
+                                                .section50 form {
+                                                    padding-top: 0px;
+                                                }
+                                                .div33 {
+                                                    padding: 25px 20px;
+                                                    width: 100%;
+                                                }
+                                                #imp-links {
+                                                    text-align: center
+                                                }
+                                                #footer-links {
+                                                    padding-left: 10px;
+                                                }
+                                            }
+                                            /* mobile menu bar */
+                                            
+                                            @media only screen and (max-width: 500px) {
+                                                #navbar {
+                                                    position: absolute;
+                                                    TOP: 0PX;
+                                                    height: 110vh;
+                                                    width: 220px;
+                                                    display: block;
+                                                }
+                                                #navbar ul li {
+                                                    display: block;
+                                                    padding-left: 20px;
+                                                    border-bottom: 2px solid gray;
+                                                }
+                                                #cross-bar {
+                                                    text-align: right;
+                                                    color: white;
+                                                }
+                                                #navbar {
+                                                    left: -280px;
+                                                    transition: all 1s ease-out;
+                                                }
+                                                #mobile-bar {
+                                                    padding: 20px;
+                                                    background-color: #ee5253;
+                                                    color: white;
+                                                }
+                                                .fa-bars {
+                                                    font-size: 25px;
+                                                }
+                                                /* visible karwane k liye */
+                                                #navbar ul #cross-bar,
+                                                #mobile-bar {
+                                                    display: block;
+                                                }
+                                            }
